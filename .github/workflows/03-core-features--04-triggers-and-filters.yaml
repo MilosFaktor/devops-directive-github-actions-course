@@ -36,4 +36,3 @@ jobs:
         run: |
           echo "=== $GITHUB_EVENT_NAME payload ==="
           cat "$GITHUB_EVENT_PATH"
-          sleep 10
