@@ -21,7 +21,7 @@ jobs:
           key: demo-cache-v1
 
       # Populate directory only on miss
-      - name: Populate cache directory
+      - name: Populate cache  directory
         if: steps.demo-cache.outputs.cache-hit != 'true'
         run: |
           echo "Cache miss – generating contents"
